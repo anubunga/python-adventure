@@ -91,3 +91,49 @@ while(decision == ""):
 print()
 time.sleep(1)
 #            ---section end---           #
+
+# --- Section Author: Anu
+print("There is a warrior who stands in your way!")
+print("1. Fight him!")
+print("2. Try negotiating with clearhim")
+print()
+decision=""
+while(decision == ""):
+   decision = input("Pick a number: ")
+   print()
+   if (decision == "1"):
+        print("You got injured but you steal his money!!")
+        player_health -= 20
+        print("Your health now:")
+        print(player_health)
+   elif (decision == "2"):
+        print("You are able to get him to work with you on your mission")
+        player_items.append("Warrior")
+        print("Your items now:")
+        print(player_items)
+print()
+time.sleep(1)
+#  ---- Section End -------------
+
+# --- Section Author: Anu Second
+print("There is a stranger with a flat tire!")
+print("1. Stop to help him!")
+print("2. Keep driving on")
+print()
+decision=""
+while(decision == ""):
+   decision = input("Pick a number: ")
+   print()
+   if (decision == "1"):
+        print("Offer to call for help!!")
+        player_health -= 20
+        print("Your health now:")
+        print(player_health)
+   elif (decision == "2"):
+        print("Call police about a stranded vehicle")
+        player_items.append("Helper")
+        print("Your items now:")
+        print(player_items)
+print()
+time.sleep(1)
+#  ---- Section End -------------
